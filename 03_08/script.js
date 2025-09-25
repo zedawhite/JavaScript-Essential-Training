@@ -32,3 +32,9 @@ const prima = {
 },
 
 console.log("The prima name:", backpack.name);  
+
+console.log("Left before:", backpack.strapLength.left);  
+
+backpack.newStrapLength(10,15)
+
+console.log("Left after:", backpack.strapLength.left);  
