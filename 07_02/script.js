@@ -7,4 +7,5 @@ let item = "flashlight";
 
 const collection = ["Piggy", item, 5, true];
 
+collection[2] = "camera";
 console.log(collection);
