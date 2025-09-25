@@ -23,3 +23,12 @@ const backpack = {
 
 console.log("The backpack object:", backpack);
 console.log("The pocketNum value:", backpack.pocketNum);
+
+const prima = {
+  name: "Paula",
+  height: 1.61,
+  color: "offwhite",
+  favoriteColor: "purple",
+},
+
+console.log("The prima name:", backpack.name);  
