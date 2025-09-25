@@ -21,4 +21,4 @@ const backpack = {
   },
 };
 
-console.log(backpack);
+console.log("The backpack object:", backpack);
