@@ -9,7 +9,10 @@
  */
 
 const formatter = (value) => {
-  let formattedValue
+  let formattedValue = new new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR" }).format(
+    value,
+  ),
+);
   return formattedValue
 }
 
